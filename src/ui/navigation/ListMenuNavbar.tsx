@@ -9,7 +9,7 @@ function ListMenuNavbar() {
         {
             NavbarListmenu.map((nav) => (
                 <li key={nav.id}>
-                    <Link href={nav.link} className='hamrah text-[22px] flex gap-1 hover:opacity-50 hover:scale-95 duration-300 cursor-pointer'>
+                    <Link href={nav.link} className={`hamrah text-[22px] flex gap-1 hover:opacity-50 hover:scale-95 duration-300 cursor-pointer ${nav.color}`}>
                       {nav.title}
                       {
                         nav.icon &&

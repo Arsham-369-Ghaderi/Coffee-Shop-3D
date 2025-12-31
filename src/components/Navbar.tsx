@@ -6,17 +6,17 @@ import SignupLoginButton from '@/ui/navigation/SignupLoginButton';
 
 function Navbar() {
   return (
-    <div className="w-full h-[10vh] shadow sticky top-0 grid grid-cols-9 items-center justify-center">
+    <div className="w-full h-[10vh] fixed top-0 left-0 z-50 grid grid-cols-12 items-center justify-center">
 
-      <div className='col-span-2 pr-[10vh]'>
+      <div className='col-span-3 pr-[33vh]'>
         <IconsNavbar/>
       </div>
 
-      <div className='col-span-5'>
+      <div className='col-span-6 pr-[7vh]'>
         <ListMenuNavbar />
       </div>
 
-      <div className='flex items-center justify-center col-span-2 pl-[10vh]'>
+      <div className='flex items-center justify-center col-span-3 pl-[23vh]'>
         <SignupLoginButton/>
       </div>
 
