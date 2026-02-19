@@ -72,3 +72,12 @@
 .hamrah{
   font-family: hamrah;
 }
+
+@layer utilities {
+  .image-home-box {
+    filter: drop-shadow(1px 1px 100px #A9A29E);
+  }
+  .shadow-done-coffe {
+    filter: drop-shadow(1px 1px 20px #00000096);
+  }
+}
