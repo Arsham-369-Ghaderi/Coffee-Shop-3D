@@ -1,5 +1,12 @@
+
 import Home from "./home/page";
 import { Metadata } from "next";
+import Order from "./order/page";
+import ScrollImageHome from "@/components/ScrollImageHome";
+import Coffee from "./coffee/page";
+import CoffeeSupplies from "./coffee-supplies/page";
+import AboutUs from "./about-us/page";
+import Contactus from "./contact-us/page";
 
 export const metadata: Metadata = {
   title: "کافه پرشین آسیا | فروش قهوه و لوازم جانبی",
@@ -59,6 +66,12 @@ export default function HomePage() {
   return (
     <main className="w-full min-h-screen">
       <Home />
+      <Order />
+      <Coffee/>
+      <CoffeeSupplies/>
+      <AboutUs/>
+      <Contactus />
+      <ScrollImageHome />
     </main>
   );
 }

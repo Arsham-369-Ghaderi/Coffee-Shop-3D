@@ -26,20 +26,20 @@ export const NavbarListmenu = [
     {
       id: 4,
       title: 'لوازم قهوه',
-      link: '/',
+      link: '/coffee-supplies',
       icon: CoffeTools,
       color: 'text-[#EFE0D1]',
     },
     {
       id: 5,
       title: 'درباره ما',
-      link: '/',
+      link: '/about-us',
       color: 'text-[#EFE0D1]',
     },
     {
       id: 6,
       title: 'آدرس ما',
-      link: '/',
+      link: '/contact-us',
       color: 'text-[#EFE0D1]',
     },
 ];

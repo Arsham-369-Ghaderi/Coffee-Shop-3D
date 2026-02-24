@@ -1,40 +1,40 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: sans-light;
-  src: url('/fonts/IRANSansX-Light.woff2') format("woff2");
+  font-family: peyda-light;
+  src: url('/fonts/peyda-light[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: sans-md;
-  src: url('/fonts/IRANSansX-Medium.woff2') format("woff2");
+  font-family: peyda-md;
+  src: url('/fonts/Peyda-Medium[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }
 
 
 @font-face {
-  font-family: sans-semibold;
-  src: url('/fonts/IRANSansX-DemiBold.woff2') format("woff2");
+  font-family: peyda-semibold;
+  src: url('/fonts/Peyda-SemiBold[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: sans-bold;
-  src: url('/fonts/IRANSansX-Bold.woff2') format("woff2");
+  font-family: peyda-bold;
+  src: url('/fonts/Peyda-Bold[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }   
 
 @font-face {
-  font-family: sans-extrabold;
-  src: url('/fonts/IRANSansX-ExtraBold.woff2') format("woff2");
+  font-family: peyda-extrabold;
+  src: url('/fonts/Peyda-ExtraBold[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }
 
 
 @font-face {
-  font-family: sans-black;
-  src: url('/fonts/IRANSansX-Black.woff2') format("woff2");
+  font-family: peyda-black;
+  src: url('/fonts/Peyda-Black[@fontbazi].woff2') format("woff2");
   font-display: swap;
 }
 
@@ -44,29 +44,29 @@
   font-display: swap;
 }
 
-.sans-light{
-  font-family: sans-light;
+.peyda-light{
+  font-family: peyda-light;
 }
 
-.sans-md{
-  font-family: sans-md;
+.peyda-md{
+  font-family: peyda-md;
 }
 
-.sans-semibold{
-  font-family: sans-semibold;
+.peyda-semibold{
+  font-family: peyda-semibold;
 }
 
-.sans-bold{
-  font-family: sans-bold;
+.peyda-bold{
+  font-family: peyda-bold;
 }
 
-.sans-extrabold{
-  font-family: sans-extrabold;
+.peyda-extrabold{
+  font-family: peyda-extrabold;
 }
 
 
-.sans-black{
-  font-family: sans-black;
+.peyda-black{
+  font-family: peyda-black;
 }
 
 .hamrah{
@@ -80,4 +80,50 @@
   .shadow-done-coffe {
     filter: drop-shadow(1px 1px 20px #00000096);
   }
+  .order-image-shadow {
+    filter: drop-shadow(1px 1px 30px #A9A29E);
+  }
+  .order-text-shadow {
+    text-shadow: 1px 1px 13px #1f1f1fd3;
+  }
+  .order-button-shadow {
+    box-shadow: 1px 1px 10px #A9A29E;
+  }
+  .catgory-image-shadow {
+    filter: drop-shadow(1px 1px 50px #A9A29E);
+    /* color: #000000c9; */
+  }
+  .profile-shadow {
+    box-shadow: 1px 1px 10px #3F3F3F;
+  }
+  .star-shadow {
+    filter: drop-shadow(1px 1px 1px #00000096);
+  }
+  .contact-image-shadow {
+    filter: drop-shadow(1px 1px 100px #efe0d179);
+  }
+}
+
+
+
+@keyframes float {
+
+  0% {
+    transform: translateY(100vh) scale(0.8);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-20vh) scale(1.1);
+    opacity: 0;
+  }
+
+}
+
+.animate-float {
+  animation: float 10s linear infinite;
 }
