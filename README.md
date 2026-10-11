@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./public/images/redmi-image.png" alt="Coffee Shop 3D Preview" width="100%" />
+</p>
 # ☕ Coffee Shop 3D
 
 **A modern coffee shop experience with immersive 3D visuals and a stylish web interface.**
