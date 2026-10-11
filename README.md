@@ -29,9 +29,6 @@ My goal is to understand the challenges of building 3D websites and gradually de
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,threejs" />
-
-<br/>
-
 <img height="50" src="https://cdn.simpleicons.org/framer/0055FF" />
 <img height="50" src="https://cdn.simpleicons.org/greensock/88CE02" />
 
