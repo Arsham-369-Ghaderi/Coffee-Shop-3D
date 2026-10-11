@@ -38,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 📸 Screenshots
 
 _Add screenshots of your coffee shop website here._
-![Coffee Shop 3D Screenshot](./image/redmi-image.png)
+![Coffee Shop 3D Screenshot](./images/redmi-image.png)
 
 ## 👨‍💻 Author
 
