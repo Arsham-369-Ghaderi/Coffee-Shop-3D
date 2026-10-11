@@ -28,11 +28,15 @@ My goal is to understand the challenges of building 3D websites and gradually de
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,threejs,js" />
+<img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind" />
+
+<br />
+
+<img src="https://skillicons.dev/icons?i=threejs,gsap" />
 
 </div>
 
-### Libraries & Animation Tools
+### Animation & 3D Libraries
 
 - 🎬 Framer Motion
 - ⚡ GSAP
